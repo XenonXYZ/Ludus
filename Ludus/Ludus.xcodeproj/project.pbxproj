@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1C8DF81BDC426F0004624A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8DF71BDC426F0004624A /* AppDelegate.swift */; };
+		3C1C8DFA1BDC426F0004624A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8DF91BDC426F0004624A /* ViewController.swift */; };
+		3C1C8DFD1BDC426F0004624A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C8DFB1BDC426F0004624A /* Main.storyboard */; };
+		3C1C8DFF1BDC426F0004624A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C8DFE1BDC426F0004624A /* Assets.xcassets */; };
+		3C1C8E021BDC426F0004624A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C8E001BDC426F0004624A /* LaunchScreen.storyboard */; };
+		3C1C8E0D1BDC426F0004624A /* LudusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8E0C1BDC426F0004624A /* LudusTests.swift */; };
+		3C1C8E181BDC426F0004624A /* LudusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8E171BDC426F0004624A /* LudusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1C8E091BDC426F0004624A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C1C8DEC1BDC426F0004624A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1C8DF31BDC426F0004624A;
+			remoteInfo = Ludus;
+		};
+		3C1C8E141BDC426F0004624A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C1C8DEC1BDC426F0004624A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1C8DF31BDC426F0004624A;
+			remoteInfo = Ludus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C1C8DF41BDC426F0004624A /* Ludus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ludus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1C8DF71BDC426F0004624A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C1C8DF91BDC426F0004624A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C1C8DFC1BDC426F0004624A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1C8DFE1BDC426F0004624A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1C8E011BDC426F0004624A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C1C8E031BDC426F0004624A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1C8E081BDC426F0004624A /* LudusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1C8E0C1BDC426F0004624A /* LudusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudusTests.swift; sourceTree = "<group>"; };
+		3C1C8E0E1BDC426F0004624A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1C8E131BDC426F0004624A /* LudusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1C8E171BDC426F0004624A /* LudusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudusUITests.swift; sourceTree = "<group>"; };
+		3C1C8E191BDC426F0004624A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1C8DF11BDC426F0004624A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1C8E051BDC426F0004624A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1C8E101BDC426F0004624A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1C8DEB1BDC426F0004624A = {
+			isa = PBXGroup;
+			children = (
+				3C1C8DF61BDC426F0004624A /* Ludus */,
+				3C1C8E0B1BDC426F0004624A /* LudusTests */,
+				3C1C8E161BDC426F0004624A /* LudusUITests */,
+				3C1C8DF51BDC426F0004624A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1C8DF51BDC426F0004624A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C8DF41BDC426F0004624A /* Ludus.app */,
+				3C1C8E081BDC426F0004624A /* LudusTests.xctest */,
+				3C1C8E131BDC426F0004624A /* LudusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1C8DF61BDC426F0004624A /* Ludus */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C8DF71BDC426F0004624A /* AppDelegate.swift */,
+				3C1C8DF91BDC426F0004624A /* ViewController.swift */,
+				3C1C8DFB1BDC426F0004624A /* Main.storyboard */,
+				3C1C8DFE1BDC426F0004624A /* Assets.xcassets */,
+				3C1C8E001BDC426F0004624A /* LaunchScreen.storyboard */,
+				3C1C8E031BDC426F0004624A /* Info.plist */,
+			);
+			path = Ludus;
+			sourceTree = "<group>";
+		};
+		3C1C8E0B1BDC426F0004624A /* LudusTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C8E0C1BDC426F0004624A /* LudusTests.swift */,
+				3C1C8E0E1BDC426F0004624A /* Info.plist */,
+			);
+			path = LudusTests;
+			sourceTree = "<group>";
+		};
+		3C1C8E161BDC426F0004624A /* LudusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C8E171BDC426F0004624A /* LudusUITests.swift */,
+				3C1C8E191BDC426F0004624A /* Info.plist */,
+			);
+			path = LudusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1C8DF31BDC426F0004624A /* Ludus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1C8E1C1BDC426F0004624A /* Build configuration list for PBXNativeTarget "Ludus" */;
+			buildPhases = (
+				3C1C8DF01BDC426F0004624A /* Sources */,
+				3C1C8DF11BDC426F0004624A /* Frameworks */,
+				3C1C8DF21BDC426F0004624A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ludus;
+			productName = Ludus;
+			productReference = 3C1C8DF41BDC426F0004624A /* Ludus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C1C8E071BDC426F0004624A /* LudusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1C8E1F1BDC426F0004624A /* Build configuration list for PBXNativeTarget "LudusTests" */;
+			buildPhases = (
+				3C1C8E041BDC426F0004624A /* Sources */,
+				3C1C8E051BDC426F0004624A /* Frameworks */,
+				3C1C8E061BDC426F0004624A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1C8E0A1BDC426F0004624A /* PBXTargetDependency */,
+			);
+			name = LudusTests;
+			productName = LudusTests;
+			productReference = 3C1C8E081BDC426F0004624A /* LudusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C1C8E121BDC426F0004624A /* LudusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1C8E221BDC426F0004624A /* Build configuration list for PBXNativeTarget "LudusUITests" */;
+			buildPhases = (
+				3C1C8E0F1BDC426F0004624A /* Sources */,
+				3C1C8E101BDC426F0004624A /* Frameworks */,
+				3C1C8E111BDC426F0004624A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1C8E151BDC426F0004624A /* PBXTargetDependency */,
+			);
+			name = LudusUITests;
+			productName = LudusUITests;
+			productReference = 3C1C8E131BDC426F0004624A /* LudusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C1C8DEC1BDC426F0004624A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ludus Labs";
+				TargetAttributes = {
+					3C1C8DF31BDC426F0004624A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3C1C8E071BDC426F0004624A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3C1C8DF31BDC426F0004624A;
+					};
+					3C1C8E121BDC426F0004624A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3C1C8DF31BDC426F0004624A;
+					};
+				};
+			};
+			buildConfigurationList = 3C1C8DEF1BDC426F0004624A /* Build configuration list for PBXProject "Ludus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C1C8DEB1BDC426F0004624A;
+			productRefGroup = 3C1C8DF51BDC426F0004624A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1C8DF31BDC426F0004624A /* Ludus */,
+				3C1C8E071BDC426F0004624A /* LudusTests */,
+				3C1C8E121BDC426F0004624A /* LudusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1C8DF21BDC426F0004624A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C8E021BDC426F0004624A /* LaunchScreen.storyboard in Resources */,
+				3C1C8DFF1BDC426F0004624A /* Assets.xcassets in Resources */,
+				3C1C8DFD1BDC426F0004624A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1C8E061BDC426F0004624A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1C8E111BDC426F0004624A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1C8DF01BDC426F0004624A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C8DFA1BDC426F0004624A /* ViewController.swift in Sources */,
+				3C1C8DF81BDC426F0004624A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1C8E041BDC426F0004624A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C8E0D1BDC426F0004624A /* LudusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1C8E0F1BDC426F0004624A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C8E181BDC426F0004624A /* LudusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C1C8E0A1BDC426F0004624A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1C8DF31BDC426F0004624A /* Ludus */;
+			targetProxy = 3C1C8E091BDC426F0004624A /* PBXContainerItemProxy */;
+		};
+		3C1C8E151BDC426F0004624A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1C8DF31BDC426F0004624A /* Ludus */;
+			targetProxy = 3C1C8E141BDC426F0004624A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C1C8DFB1BDC426F0004624A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1C8DFC1BDC426F0004624A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1C8E001BDC426F0004624A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1C8E011BDC426F0004624A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1C8E1A1BDC426F0004624A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C1C8E1B1BDC426F0004624A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1C8E1D1BDC426F0004624A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ludus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Ludus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C1C8E1E1BDC426F0004624A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ludus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Ludus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C1C8E201BDC426F0004624A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LudusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LudusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ludus.app/Ludus";
+			};
+			name = Debug;
+		};
+		3C1C8E211BDC426F0004624A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LudusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LudusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ludus.app/Ludus";
+			};
+			name = Release;
+		};
+		3C1C8E231BDC426F0004624A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LudusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LudusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ludus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C1C8E241BDC426F0004624A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LudusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LudusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ludus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1C8DEF1BDC426F0004624A /* Build configuration list for PBXProject "Ludus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1C8E1A1BDC426F0004624A /* Debug */,
+				3C1C8E1B1BDC426F0004624A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1C8E1C1BDC426F0004624A /* Build configuration list for PBXNativeTarget "Ludus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1C8E1D1BDC426F0004624A /* Debug */,
+				3C1C8E1E1BDC426F0004624A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C1C8E1F1BDC426F0004624A /* Build configuration list for PBXNativeTarget "LudusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1C8E201BDC426F0004624A /* Debug */,
+				3C1C8E211BDC426F0004624A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C1C8E221BDC426F0004624A /* Build configuration list for PBXNativeTarget "LudusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1C8E231BDC426F0004624A /* Debug */,
+				3C1C8E241BDC426F0004624A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C1C8DEC1BDC426F0004624A /* Project object */;
+}
