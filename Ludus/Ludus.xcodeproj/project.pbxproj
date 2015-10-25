@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		3C1C8DF81BDC426F0004624A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8DF71BDC426F0004624A /* AppDelegate.swift */; };
-		3C1C8DFA1BDC426F0004624A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8DF91BDC426F0004624A /* ViewController.swift */; };
 		3C1C8DFD1BDC426F0004624A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C8DFB1BDC426F0004624A /* Main.storyboard */; };
 		3C1C8DFF1BDC426F0004624A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C8DFE1BDC426F0004624A /* Assets.xcassets */; };
 		3C1C8E021BDC426F0004624A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C8E001BDC426F0004624A /* LaunchScreen.storyboard */; };
 		3C1C8E0D1BDC426F0004624A /* LudusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8E0C1BDC426F0004624A /* LudusTests.swift */; };
 		3C1C8E181BDC426F0004624A /* LudusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C8E171BDC426F0004624A /* LudusUITests.swift */; };
+		9F188A621BDC62F700EA3BD8 /* Generica.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F188A611BDC62F700EA3BD8 /* Generica.otf */; };
+		9F188A641BDC65B700EA3BD8 /* SProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A631BDC65B700EA3BD8 /* SProfileViewController.swift */; };
+		9F188A661BDC664D00EA3BD8 /* SHomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A651BDC664D00EA3BD8 /* SHomepageViewController.swift */; };
+		9F188A681BDC677B00EA3BD8 /* SSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A671BDC677B00EA3BD8 /* SSkillsViewController.swift */; };
+		9F188A6A1BDC6FCF00EA3BD8 /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A691BDC6FCF00EA3BD8 /* SkillCell.swift */; };
+		9F188A6C1BDCBF9400EA3BD8 /* SFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A6B1BDCBF9400EA3BD8 /* SFeedbackViewController.swift */; };
+		9F188A6E1BDCC61D00EA3BD8 /* SDatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A6D1BDCC61D00EA3BD8 /* SDatesViewController.swift */; };
+		9F188A701BDCC6D700EA3BD8 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A6F1BDCC6D700EA3BD8 /* DateCell.swift */; };
+		9F188A731BDCCEBD00EA3BD8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A711BDCCEBD00EA3BD8 /* Bolts.framework */; };
+		9F188A741BDCCEBD00EA3BD8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A721BDCCEBD00EA3BD8 /* Parse.framework */; };
+		9F188A761BDCCEFF00EA3BD8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A751BDCCEFF00EA3BD8 /* AudioToolbox.framework */; };
+		9F188A781BDCCF0800EA3BD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A771BDCCF0800EA3BD8 /* CFNetwork.framework */; };
+		9F188A7A1BDCCF0D00EA3BD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A791BDCCF0D00EA3BD8 /* CoreGraphics.framework */; };
+		9F188A7C1BDCCF1700EA3BD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A7B1BDCCF1700EA3BD8 /* CoreLocation.framework */; };
+		9F188A7E1BDCCF1D00EA3BD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A7D1BDCCF1D00EA3BD8 /* QuartzCore.framework */; };
+		9F188A801BDCCF2600EA3BD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A7F1BDCCF2600EA3BD8 /* Security.framework */; };
+		9F188A821BDCCF3000EA3BD8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A811BDCCF3000EA3BD8 /* StoreKit.framework */; };
+		9F188A841BDCCF4900EA3BD8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A831BDCCF4900EA3BD8 /* SystemConfiguration.framework */; };
+		9F188A861BDCCF5600EA3BD8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A851BDCCF5600EA3BD8 /* libz.tbd */; };
+		9F188A8A1BDCCF7400EA3BD8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F188A891BDCCF7400EA3BD8 /* libsqlite3.tbd */; };
+		9F188A8F1BDCD34A00EA3BD8 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A8E1BDCD34A00EA3BD8 /* LandingPageViewController.swift */; };
+		9F188A911BDCDA7200EA3BD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A901BDCDA7200EA3BD8 /* LoginViewController.swift */; };
+		9F188A931BDCDA7B00EA3BD8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188A921BDCDA7B00EA3BD8 /* SignupViewController.swift */; };
+		9F188AA21BDCE59000EA3BD8 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9F188A9F1BDCE59000EA3BD8 /* ProgressHUD.bundle */; };
+		9F188AA31BDCE59000EA3BD8 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F188AA11BDCE59000EA3BD8 /* ProgressHUD.m */; };
+		9F188AA71BDD16E400EA3BD8 /* CStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188AA61BDD16E400EA3BD8 /* CStudentsViewController.swift */; };
+		9F188AAA1BDD181B00EA3BD8 /* CSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188AA91BDD181B00EA3BD8 /* CSkillsViewController.swift */; };
+		9F188AAC1BDD183600EA3BD8 /* COptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188AAB1BDD183600EA3BD8 /* COptionsViewController.swift */; };
+		9F188AAE1BDD18E600EA3BD8 /* CFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188AAD1BDD18E600EA3BD8 /* CFeedbackViewController.swift */; };
+		9F188AB01BDD19CF00EA3BD8 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F188AAF1BDD19CF00EA3BD8 /* StudentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +65,6 @@
 /* Begin PBXFileReference section */
 		3C1C8DF41BDC426F0004624A /* Ludus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ludus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1C8DF71BDC426F0004624A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C1C8DF91BDC426F0004624A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C1C8DFC1BDC426F0004624A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C1C8DFE1BDC426F0004624A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1C8E011BDC426F0004624A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,39 @@
 		3C1C8E131BDC426F0004624A /* LudusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1C8E171BDC426F0004624A /* LudusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudusUITests.swift; sourceTree = "<group>"; };
 		3C1C8E191BDC426F0004624A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F188A611BDC62F700EA3BD8 /* Generica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Generica.otf; sourceTree = "<group>"; };
+		9F188A631BDC65B700EA3BD8 /* SProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SProfileViewController.swift; sourceTree = "<group>"; };
+		9F188A651BDC664D00EA3BD8 /* SHomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHomepageViewController.swift; sourceTree = "<group>"; };
+		9F188A671BDC677B00EA3BD8 /* SSkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSkillsViewController.swift; sourceTree = "<group>"; };
+		9F188A691BDC6FCF00EA3BD8 /* SkillCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		9F188A6B1BDCBF9400EA3BD8 /* SFeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFeedbackViewController.swift; sourceTree = "<group>"; };
+		9F188A6D1BDCC61D00EA3BD8 /* SDatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDatesViewController.swift; sourceTree = "<group>"; };
+		9F188A6F1BDCC6D700EA3BD8 /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		9F188A711BDCCEBD00EA3BD8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9F188A721BDCCEBD00EA3BD8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9F188A751BDCCEFF00EA3BD8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9F188A771BDCCF0800EA3BD8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9F188A791BDCCF0D00EA3BD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F188A7B1BDCCF1700EA3BD8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F188A7D1BDCCF1D00EA3BD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9F188A7F1BDCCF2600EA3BD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9F188A811BDCCF3000EA3BD8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9F188A831BDCCF4900EA3BD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9F188A851BDCCF5600EA3BD8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9F188A871BDCCF6400EA3BD8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9F188A891BDCCF7400EA3BD8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9F188A8E1BDCD34A00EA3BD8 /* LandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingPageViewController.swift; path = ../LandingPageViewController.swift; sourceTree = "<group>"; };
+		9F188A901BDCDA7200EA3BD8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F188A921BDCDA7B00EA3BD8 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9F188A961BDCE4E900EA3BD8 /* Ludus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ludus-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F188A9F1BDCE59000EA3BD8 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		9F188AA01BDCE59000EA3BD8 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		9F188AA11BDCE59000EA3BD8 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		9F188AA61BDD16E400EA3BD8 /* CStudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CStudentsViewController.swift; sourceTree = "<group>"; };
+		9F188AA91BDD181B00EA3BD8 /* CSkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSkillsViewController.swift; sourceTree = "<group>"; };
+		9F188AAB1BDD183600EA3BD8 /* COptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COptionsViewController.swift; sourceTree = "<group>"; };
+		9F188AAD1BDD18E600EA3BD8 /* CFeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFeedbackViewController.swift; sourceTree = "<group>"; };
+		9F188AAF1BDD19CF00EA3BD8 /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +115,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F188A8A1BDCCF7400EA3BD8 /* libsqlite3.tbd in Frameworks */,
+				9F188A861BDCCF5600EA3BD8 /* libz.tbd in Frameworks */,
+				9F188A841BDCCF4900EA3BD8 /* SystemConfiguration.framework in Frameworks */,
+				9F188A821BDCCF3000EA3BD8 /* StoreKit.framework in Frameworks */,
+				9F188A801BDCCF2600EA3BD8 /* Security.framework in Frameworks */,
+				9F188A7E1BDCCF1D00EA3BD8 /* QuartzCore.framework in Frameworks */,
+				9F188A7C1BDCCF1700EA3BD8 /* CoreLocation.framework in Frameworks */,
+				9F188A7A1BDCCF0D00EA3BD8 /* CoreGraphics.framework in Frameworks */,
+				9F188A781BDCCF0800EA3BD8 /* CFNetwork.framework in Frameworks */,
+				9F188A761BDCCEFF00EA3BD8 /* AudioToolbox.framework in Frameworks */,
+				9F188A741BDCCEBD00EA3BD8 /* Parse.framework in Frameworks */,
+				9F188A731BDCCEBD00EA3BD8 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +150,7 @@
 		3C1C8DEB1BDC426F0004624A = {
 			isa = PBXGroup;
 			children = (
+				9F188A8B1BDCCFAD00EA3BD8 /* Frameworks */,
 				3C1C8DF61BDC426F0004624A /* Ludus */,
 				3C1C8E0B1BDC426F0004624A /* LudusTests */,
 				3C1C8E161BDC426F0004624A /* LudusUITests */,
@@ -97,12 +171,24 @@
 		3C1C8DF61BDC426F0004624A /* Ludus */ = {
 			isa = PBXGroup;
 			children = (
+				9F188AA41BDCE59D00EA3BD8 /* ProgressHUD */,
 				3C1C8DF71BDC426F0004624A /* AppDelegate.swift */,
-				3C1C8DF91BDC426F0004624A /* ViewController.swift */,
+				9F188A921BDCDA7B00EA3BD8 /* SignupViewController.swift */,
+				9F188A901BDCDA7200EA3BD8 /* LoginViewController.swift */,
+				9F188A8E1BDCD34A00EA3BD8 /* LandingPageViewController.swift */,
+				9F188AA51BDD16C500EA3BD8 /* StudentControllers */,
+				9F188AA81BDD16F300EA3BD8 /* CoachStudentControllers */,
+				9F188A691BDC6FCF00EA3BD8 /* SkillCell.swift */,
+				9F188A6F1BDCC6D700EA3BD8 /* DateCell.swift */,
+				9F188AAF1BDD19CF00EA3BD8 /* StudentCell.swift */,
 				3C1C8DFB1BDC426F0004624A /* Main.storyboard */,
 				3C1C8DFE1BDC426F0004624A /* Assets.xcassets */,
 				3C1C8E001BDC426F0004624A /* LaunchScreen.storyboard */,
+				9F188A611BDC62F700EA3BD8 /* Generica.otf */,
+				9F188A711BDCCEBD00EA3BD8 /* Bolts.framework */,
+				9F188A721BDCCEBD00EA3BD8 /* Parse.framework */,
 				3C1C8E031BDC426F0004624A /* Info.plist */,
+				9F188A961BDCE4E900EA3BD8 /* Ludus-Bridging-Header.h */,
 			);
 			path = Ludus;
 			sourceTree = "<group>";
@@ -123,6 +209,57 @@
 				3C1C8E191BDC426F0004624A /* Info.plist */,
 			);
 			path = LudusUITests;
+			sourceTree = "<group>";
+		};
+		9F188A8B1BDCCFAD00EA3BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F188A891BDCCF7400EA3BD8 /* libsqlite3.tbd */,
+				9F188A871BDCCF6400EA3BD8 /* libsqlite3.0.tbd */,
+				9F188A851BDCCF5600EA3BD8 /* libz.tbd */,
+				9F188A831BDCCF4900EA3BD8 /* SystemConfiguration.framework */,
+				9F188A811BDCCF3000EA3BD8 /* StoreKit.framework */,
+				9F188A7F1BDCCF2600EA3BD8 /* Security.framework */,
+				9F188A7D1BDCCF1D00EA3BD8 /* QuartzCore.framework */,
+				9F188A7B1BDCCF1700EA3BD8 /* CoreLocation.framework */,
+				9F188A791BDCCF0D00EA3BD8 /* CoreGraphics.framework */,
+				9F188A771BDCCF0800EA3BD8 /* CFNetwork.framework */,
+				9F188A751BDCCEFF00EA3BD8 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F188AA41BDCE59D00EA3BD8 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9F188A9F1BDCE59000EA3BD8 /* ProgressHUD.bundle */,
+				9F188AA01BDCE59000EA3BD8 /* ProgressHUD.h */,
+				9F188AA11BDCE59000EA3BD8 /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		9F188AA51BDD16C500EA3BD8 /* StudentControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F188A651BDC664D00EA3BD8 /* SHomepageViewController.swift */,
+				9F188A631BDC65B700EA3BD8 /* SProfileViewController.swift */,
+				9F188A671BDC677B00EA3BD8 /* SSkillsViewController.swift */,
+				9F188A6B1BDCBF9400EA3BD8 /* SFeedbackViewController.swift */,
+				9F188A6D1BDCC61D00EA3BD8 /* SDatesViewController.swift */,
+			);
+			name = StudentControllers;
+			sourceTree = "<group>";
+		};
+		9F188AA81BDD16F300EA3BD8 /* CoachStudentControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F188AA61BDD16E400EA3BD8 /* CStudentsViewController.swift */,
+				9F188AAB1BDD183600EA3BD8 /* COptionsViewController.swift */,
+				9F188AA91BDD181B00EA3BD8 /* CSkillsViewController.swift */,
+				9F188AAD1BDD18E600EA3BD8 /* CFeedbackViewController.swift */,
+			);
+			name = CoachStudentControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +367,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1C8E021BDC426F0004624A /* LaunchScreen.storyboard in Resources */,
+				9F188AA21BDCE59000EA3BD8 /* ProgressHUD.bundle in Resources */,
+				9F188A621BDC62F700EA3BD8 /* Generica.otf in Resources */,
 				3C1C8DFF1BDC426F0004624A /* Assets.xcassets in Resources */,
 				3C1C8DFD1BDC426F0004624A /* Main.storyboard in Resources */,
 			);
@@ -256,8 +395,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1C8DFA1BDC426F0004624A /* ViewController.swift in Sources */,
+				9F188A6E1BDCC61D00EA3BD8 /* SDatesViewController.swift in Sources */,
+				9F188A6A1BDC6FCF00EA3BD8 /* SkillCell.swift in Sources */,
+				9F188A931BDCDA7B00EA3BD8 /* SignupViewController.swift in Sources */,
+				9F188AAC1BDD183600EA3BD8 /* COptionsViewController.swift in Sources */,
+				9F188A661BDC664D00EA3BD8 /* SHomepageViewController.swift in Sources */,
+				9F188A641BDC65B700EA3BD8 /* SProfileViewController.swift in Sources */,
+				9F188A8F1BDCD34A00EA3BD8 /* LandingPageViewController.swift in Sources */,
+				9F188AA31BDCE59000EA3BD8 /* ProgressHUD.m in Sources */,
+				9F188AA71BDD16E400EA3BD8 /* CStudentsViewController.swift in Sources */,
+				9F188A681BDC677B00EA3BD8 /* SSkillsViewController.swift in Sources */,
 				3C1C8DF81BDC426F0004624A /* AppDelegate.swift in Sources */,
+				9F188A6C1BDCBF9400EA3BD8 /* SFeedbackViewController.swift in Sources */,
+				9F188A911BDCDA7200EA3BD8 /* LoginViewController.swift in Sources */,
+				9F188AB01BDD19CF00EA3BD8 /* StudentCell.swift in Sources */,
+				9F188AAA1BDD181B00EA3BD8 /* CSkillsViewController.swift in Sources */,
+				9F188A701BDCC6D700EA3BD8 /* DateCell.swift in Sources */,
+				9F188AAE1BDD18E600EA3BD8 /* CFeedbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +553,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ludus",
+				);
 				INFOPLIST_FILE = Ludus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Ludus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ludus/Ludus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +572,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ludus",
+				);
 				INFOPLIST_FILE = Ludus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Ludus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ludus/Ludus-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +653,7 @@
 				3C1C8E1E1BDC426F0004624A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C1C8E1F1BDC426F0004624A /* Build configuration list for PBXNativeTarget "LudusTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +662,7 @@
 				3C1C8E211BDC426F0004624A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C1C8E221BDC426F0004624A /* Build configuration list for PBXNativeTarget "LudusUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +671,7 @@
 				3C1C8E241BDC426F0004624A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
