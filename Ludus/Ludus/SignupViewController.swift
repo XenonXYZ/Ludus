@@ -20,7 +20,7 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var passwordConfirmTextField: UITextField!
     @IBOutlet weak var signupButton: UIButton!
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

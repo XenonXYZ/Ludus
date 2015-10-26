@@ -294,7 +294,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xPj-Zs-wUv">
                                 <rect key="frame" x="70" y="268" width="460" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KSZ-q3-Krj">
                                 <rect key="frame" x="70" y="197" width="460" height="30"/>
@@ -674,8 +674,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BJ-GB-xcE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BJ-GB-xcE">
                                 <rect key="frame" x="26" y="28" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="58y-gN-URJ"/>
+                                    <constraint firstAttribute="width" constant="34" id="iJT-s7-oSv"/>
+                                </constraints>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="Vw2-SK-MVU" eventType="touchUpInside" id="Xgk-Dx-ch3"/>
@@ -712,9 +716,11 @@
                             <constraint firstItem="03O-Mx-At7" firstAttribute="leading" secondItem="ksV-H6-Lha" secondAttribute="trailing" constant="70" id="5Me-NV-26t"/>
                             <constraint firstItem="blp-8T-E9Y" firstAttribute="top" secondItem="Frd-Ni-Kvl" secondAttribute="bottom" constant="8" id="8Kp-fv-a0i"/>
                             <constraint firstItem="qVp-7J-nLU" firstAttribute="leading" secondItem="A1x-ag-z7S" secondAttribute="leadingMargin" constant="10" id="8TA-xY-NB4"/>
+                            <constraint firstItem="4BJ-GB-xcE" firstAttribute="leading" secondItem="A1x-ag-z7S" secondAttribute="leadingMargin" constant="6" id="95U-lf-Z3p"/>
                             <constraint firstItem="ubi-U1-oTg" firstAttribute="centerY" secondItem="qVp-7J-nLU" secondAttribute="centerY" id="Afn-hq-f8o"/>
                             <constraint firstItem="c2a-mt-Sg0" firstAttribute="top" secondItem="blp-8T-E9Y" secondAttribute="bottom" constant="30" id="BMF-DC-kzM"/>
                             <constraint firstItem="qup-Hl-iu0" firstAttribute="centerY" secondItem="QYN-aE-Ksf" secondAttribute="centerY" id="Cae-SR-6PJ"/>
+                            <constraint firstItem="4BJ-GB-xcE" firstAttribute="top" secondItem="Frd-Ni-Kvl" secondAttribute="bottom" constant="8" id="D7f-xd-ACF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Udu-O3-f5e" secondAttribute="trailing" constant="20" id="Eb9-6o-QGL"/>
                             <constraint firstItem="blp-8T-E9Y" firstAttribute="centerX" secondItem="A1x-ag-z7S" secondAttribute="centerX" id="F6E-P8-Dbn"/>
                             <constraint firstItem="qup-Hl-iu0" firstAttribute="leading" secondItem="QYN-aE-Ksf" secondAttribute="trailing" constant="100" id="Fqb-P5-1Be"/>
@@ -926,8 +932,12 @@
                                     <outlet property="delegate" destination="Uyv-bF-c4W" id="foI-dN-RCg"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="An5-a0-ZkS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="An5-a0-ZkS">
                                 <rect key="frame" x="26" y="20" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="SPu-9T-xix"/>
+                                    <constraint firstAttribute="height" constant="30" id="Xeb-QB-NRf"/>
+                                </constraints>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="Uyv-bF-c4W" eventType="touchUpInside" id="C10-Za-HNG"/>
@@ -940,10 +950,12 @@
                             <constraint firstItem="0Hr-5O-Xuw" firstAttribute="top" secondItem="aYJ-f8-4az" secondAttribute="bottom" constant="8" id="CdP-tn-DRY"/>
                             <constraint firstItem="0Hr-5O-Xuw" firstAttribute="centerX" secondItem="pKe-VZ-AW2" secondAttribute="centerX" id="Gvd-HN-zXv"/>
                             <constraint firstItem="0Hr-5O-Xuw" firstAttribute="leading" secondItem="qVp-vg-iMD" secondAttribute="trailing" constant="-398" id="Kgm-fw-TmY"/>
+                            <constraint firstItem="An5-a0-ZkS" firstAttribute="leading" secondItem="pKe-VZ-AW2" secondAttribute="leadingMargin" constant="6" id="V7M-bm-KvN"/>
                             <constraint firstItem="qVp-vg-iMD" firstAttribute="top" secondItem="0Hr-5O-Xuw" secondAttribute="bottom" constant="8" id="Xwe-ad-e4A"/>
                             <constraint firstItem="qVp-vg-iMD" firstAttribute="top" secondItem="aYJ-f8-4az" secondAttribute="bottom" constant="97" id="ZN4-DK-DHM"/>
                             <constraint firstItem="qVp-vg-iMD" firstAttribute="leading" secondItem="pKe-VZ-AW2" secondAttribute="leadingMargin" constant="-20" id="jVV-K2-wOq"/>
                             <constraint firstItem="gUf-bO-OHr" firstAttribute="top" secondItem="qVp-vg-iMD" secondAttribute="bottom" id="sqK-fB-bdk"/>
+                            <constraint firstItem="An5-a0-ZkS" firstAttribute="top" secondItem="aYJ-f8-4az" secondAttribute="bottom" id="xuJ-4m-gcL"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -1050,9 +1062,9 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="7iR-T8-gdp"/>
-                                        <exclude reference="dTG-Iv-Oln"/>
                                         <exclude reference="8Sv-Av-jPM"/>
                                         <exclude reference="cSK-PO-S69"/>
+                                        <exclude reference="dTG-Iv-Oln"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -1540,7 +1552,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="tlK-JB-wbf"/>
         <segue reference="TDz-yy-km2"/>
-        <segue reference="QBm-XF-Gat"/>
     </inferredMetricsTieBreakers>
 </document>
